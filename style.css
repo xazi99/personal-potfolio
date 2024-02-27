@@ -91,6 +91,21 @@ li {
     background-color: white;
     padding: 50px 0;
 }
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: hsl(301, 19%, 50%);
+    color: #ffffff; /* White color, you can change it */
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Change link color on hover for better user experience */
+a:hover {
+    background-color: hsl(301, 19%, 50%)
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
