@@ -21,7 +21,7 @@ h1 {
 }
 
 span {
-    color: hsl(301, 19%, 50%);
+    color: goldenrod;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 a{
     display: inline-block;
     padding: 10px 20px;
-    background-color: hsl(301, 19%, 50%);
+    background-color: black;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -42,30 +42,35 @@ a{
 .My-picture {
     display: center;
     align-items: center; /* Center vertically */
-
-
   }
   
   img {
     max-width: 100%; 
   }
-  ul{
-    display: flex;
-  }
-  ul li{
-    position: relative;
-    display: block;
-    color: #666;
-    font-size: 30px;
-    height: 60px;
-    width: 60px;
-    background: #171715;
-    line-height: 60px;
-    border-radius: 50%;
-    margin: 0 15px;
-
-
-  }
+  .social-icons{    
+ margin-top: 20px;   
+}   
+.fa{    
+padding: 10px;    
+font-size: 20px;    
+text-align: center;    
+text-decoration: none;    
+margin: 5px 2px;    
+border-radius: 50%;   
+}   
+.fa:hover{    
+opacity: 0.7;   
+}
+.fa-facebook{
+    background-color: blue;
+    
+}
+.fa-linkedin{
+    background-color: lightblue;
+}
+.fa-instagram{
+    background-color: rgb(255, 145, 0);
+}
 
 
 #header {
@@ -107,12 +112,18 @@ li {
     background-color: white;
     padding: 50px 0;
 }
+.p {
+    color: black;
+    font-size: 10px;
+    float: left;
+    display: flex;
+}
 a {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: hsl(301, 19%, 50%);
-    color: #ffffff; /* White color, you can change it */
+    background-color: goldenrod;
+    color: black; /* White color, you can change it */
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
