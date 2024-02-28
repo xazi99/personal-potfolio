@@ -107,7 +107,7 @@ ul {
 li {
     margin-right: 20px;
 }
-
+/*****************************************ABOUT*************************************/
 #about {
     background-color: white;
     padding: 50px 0;
@@ -214,6 +214,13 @@ ul li span {
     font-weight: bold;
 }
 
+/************************************CONTACT ME*****************/
+.contact {
+    width: 80%;
+    margin:50px auto;
+}
+
+/****************************************FOOTER****************/
 #container {
     min-height: 100%;
 }
