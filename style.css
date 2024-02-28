@@ -40,7 +40,7 @@ a{
     font-size: 16px;
 }
 .My-picture {
-    display: flex;
+    display: center;
     align-items: center; /* Center vertically */
 
 
@@ -48,6 +48,23 @@ a{
   
   img {
     max-width: 100%; 
+  }
+  ul{
+    display: flex;
+  }
+  ul li{
+    position: relative;
+    display: block;
+    color: #666;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: #171715;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+
+
   }
 
 
