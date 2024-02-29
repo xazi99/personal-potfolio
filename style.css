@@ -17,22 +17,22 @@ body {
 
 h1 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;   
 }
 
 span {
-    color: goldenrod;
+    color: hsl(301, 19%, 50%);
 }
 
 p {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 a{
     display: inline-block;
     padding: 10px 20px;
-    background-color: black;
+    background-color: hsl(301, 19%, 50%);
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -40,8 +40,10 @@ a{
     font-size: 16px;
 }
 .My-picture {
-    display: center;
+    display: flex;
     align-items: center; /* Center vertically */
+    padding: 3%;
+    margin-right: 10px;
   }
   
   img {
@@ -75,7 +77,7 @@ opacity: 0.7;
 
 #header {
     background-color: #333;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     padding: 10px 0;
 }
 
@@ -122,8 +124,8 @@ a {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: goldenrod;
-    color: black; /* White color, you can change it */
+    background-color: hsl(301, 19%, 50%);
+    color: white; /****** color white*****/
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
@@ -214,10 +216,80 @@ ul li span {
     font-weight: bold;
 }
 
+
+/*******************************************services**********************************/
+
+.services {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.website developer {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+
 /************************************CONTACT ME*****************/
+/***************style inputs*******************/
+input[type=text], select, 
+textarea{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: hsl(301, 19%, 50%);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: white;
+}
+
+/***********style contact section******/
 .contact {
-    width: 80%;
-    margin:50px auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/**********craete two columns that float next to eachother**************/
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+/**clear floats after the columns**/
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+
+
+    
 }
 
 /****************************************FOOTER****************/
