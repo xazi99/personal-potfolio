@@ -25,7 +25,7 @@ span {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;    
 }
 
@@ -39,16 +39,16 @@ a{
     font-weight: bold;
     font-size: 16px;
 }
-.My-picture {
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
     display: flex;
-    align-items: center; /* Center vertically */
-    padding: 3%;
-    margin-right: 10px;
-  }
-  
-  img {
-    max-width: 100%; 
-  }
+}
+
   .social-icons{    
  margin-top: 20px;   
 }   
@@ -110,72 +110,10 @@ li {
     margin-right: 20px;
 }
 /*****************************************ABOUT*************************************/
-/*#about {
-    background-color: white;
-    padding: 50px 0;
-}
-.p {
-    color: black;
-    font-size: 10px;
-    float: left;
-    display: flex;
-}
-a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color: hsl(301, 19%, 50%);
-    color: white; 
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-/* Change link color on hover for better user experience *
-a:hover {
-    background-color: hsl(301, 19%, 50%)
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 0 20px;
-
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-}
-
-.about-col-1 img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 5px;
-}
-
-
-.about-col-2 {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-
-.sub-titles {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 10px;
-}*/
-
 
 #about {
     padding: 50px 0;
-    background-color: black;
+    background-color: white;
   }
 
   .container {
@@ -212,18 +150,18 @@ a:hover {
   .about-col-2 p {
     font-size: 16px;
     line-height: 1.6;
-    color: white;
+    color: black;
   }
 
 about-col-2 p{
     font-size: 16px;
-    color: #666;
+    color: black;
     line-height: 1.5;
 }
 .tab-titles {
     display: flex;
     justify-content: space-between;
-    background-color: #666;
+    background-color: black;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -273,7 +211,7 @@ ul li span {
 
 }
 .service-list div{
-    background: #262626;
+    background: white;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -309,6 +247,12 @@ input[type=submit]:hover {
     background-color: white;
 }
 
+.contact h1 {
+    float: center;
+    align-items: center;
+    padding: 10px;
+}
+
 /***********style contact section******/
 .contact {
     border-radius: 5px;
@@ -318,7 +262,7 @@ input[type=submit]:hover {
 
 /**********craete two columns that float next to eachother**************/
 .column {
-    float: left;
+    float: center;
     width: 50%;
     margin-top: 6px;
     padding: 20px;

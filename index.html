@@ -27,12 +27,54 @@
         </div>
    <div class="header-text" style="float:left,">
          <h1> Hi, I'm <span>Nangamso</span><br>Xazi from Eastern Cape</h1>
-         <p>YOUR <span>SOFTWARE DEVELOPER</span> INTERN</p>
-         <a href="images/CV_2024012320362892.pdf">DOWNLOAD CV</a>
+         <p>YOUR <span>SOFTWARE DEVELOPER</span> INTERN AND<br><span>COMMUNICATION NETWORKS</span> GRADUATE</p>
+         <a href="images/CV_2024012320362892.pdf">VIEW MY CV</a>
+         <a href="">HIRE ME</a>
    </div>
-   <div class="My-picture" style="float: right;">
-    <img src="images/img3.jpg">
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="images/img1.png.jpg" alt="my-image">
+        </div>
+        <div class="slide">
+            <img src="images/img4.jpg" alt="my-image2">
+        </div>
+        <div class="slide">
+            <img src="images/img3.jpg" alt="my-image3">
+        </div>
+    </div>
    </div>
+
+   <script>
+    $(document).ready(function () {
+        let currentIndex = 0;
+        showSlide(currentIndex);
+
+        function showSlide(index) {
+            let slides = $('.slide');
+            if (index >= slides.length) {
+                currentIndex = 0;
+            }
+            if (index < 0) {
+                currentIndex = slides.length - 1;
+            }
+            slides.hide();
+            slides.eq(currentIndex).show();
+        }
+
+        function nextSlide() {
+            currentIndex++;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex--;
+            showSlide(currentIndex);
+        }
+
+        // Change slides every 3 seconds (adjust as needed)
+        setInterval(nextSlide, 3000);
+    });
+</script>
    <div class="social-icons"> 
     <a href="https://www.facebook.com/your_facebook_page"target="_blank" class="fa fa-facebook"></a>    
     <a href="https://www.linkedin.com/in/nangamso-xazi-139b95230/"target="_blank"class="fa fa-linkedin"></a>  
