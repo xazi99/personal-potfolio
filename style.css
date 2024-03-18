@@ -26,7 +26,8 @@ span {
 
 p {
     font-size: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+      
 }
 
 a{
@@ -41,8 +42,8 @@ a{
 }
 
 .slider {
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
     align-items: baseline;
@@ -63,8 +64,8 @@ a{
 }
 
 .slide img{
-    width: 700px;
-    height: 600px; 
+    width: 500px;
+    height: 400px; 
     align-items: center;
 }
 
@@ -105,11 +106,6 @@ a{
 #radio3:checked ~ .first{
     margin-left: -40%;
 }
-
-
-
-
-
 
 
   .social-icons{    
